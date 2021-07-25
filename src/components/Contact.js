@@ -5,12 +5,22 @@ function Contact(props) {
         <div>
             <h2>Contact Me</h2>
             <div class="form-group">
+                <label for="contactName">Name</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    id="contactName"
+                    placeholder="John Doe"
+                ></input>
+            </div>
+
+            <div class="form-group">
                 <label for="contactEmail">Email Address</label>
                 <input
                     type="email"
                     class="form-control"
                     id="contactEmail"
-                    placeholder="name@example.com"
+                    placeholder="example@email.com"
                 ></input>
             </div>
 
@@ -19,6 +29,7 @@ function Contact(props) {
                 <textarea
                     class="form-control"
                     id="contactTextArea"
+                    placeholder="Write your message here"
                     rows="10"
                 ></textarea>
             </div>
