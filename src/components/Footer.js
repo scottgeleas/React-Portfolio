@@ -1,9 +1,14 @@
 import React from 'react';
+import github from '../icons/github64px.png';
+import linkedin from '../icons/linkedin64px.png';
+import stack from '../icons/stack64px.png';
 
-function Footer(props) {
+function Footer() {
     return (
         <div>
-            <p>Made with auto rename tag breaking everything</p>
+            <a href='https://github.com/scottgeleas'><img src={github}/></a>
+            <a href='https://github.com/scottgeleas'><img src={linkedin}/></a>
+            <a href='https://github.com/scottgeleas'><img src={stack}/></a>
         </div>
     );
 }
