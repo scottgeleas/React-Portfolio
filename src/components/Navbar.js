@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar(props) {
     return (
-        <div>
+        <div class="navbar">
             <ul>
                 <li onClick={()=> {props.setCurrentPage('About')}}>About</li>
                 <li onClick={()=> {props.setCurrentPage('Portfolio')}}>Portfolio</li>

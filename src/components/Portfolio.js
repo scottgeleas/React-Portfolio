@@ -16,7 +16,8 @@ function Portfolio(props) {
             {Projects.map((projectData) => {
                 return <Project 
                 title={projectData.title} 
-                description={projectData.description} />;
+                description={projectData.description}
+                image={projectData.image} />;
             })}
         </div>
     );

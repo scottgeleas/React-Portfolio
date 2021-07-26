@@ -5,7 +5,7 @@ import stack from "../icons/stack64px.png";
 
 function Footer() {
     return (
-        <div>
+        <div class="footer">
             <a href="https://github.com/scottgeleas">
                 <img src={github} />
             </a>
