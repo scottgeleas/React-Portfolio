@@ -1,38 +1,28 @@
 import React from "react";
-
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 function Contact(props) {
     return (
-        <div>
+        <div className="contact">
             <h2>Contact Me</h2>
-            <div className="form-group">
-                <label for="contactName">Name</label>
-                <input
-                    type="text"
-                    className="form-control"
-                    id="contactName"
-                    placeholder="John Doe"
-                ></input>
-            </div>
+            <Form>
+            <Form.Group className="mb-3">
+                    <Form.Label>Name</Form.Label>
+                    <Form.Control type="text" placeholder="Your Name" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Label>Email</Form.Label>
+                    <Form.Control type="email" placeholder="Your email" />
+                </Form.Group>
 
-            <div className="form-group">
-                <label for="contactEmail">Email Address</label>
-                <input
-                    type="email"
-                    className="form-control"
-                    id="contactEmail"
-                    placeholder="example@email.com"
-                ></input>
-            </div>
-
-            <div className="form-group">
-                <label for="contactTextArea">Message</label>
-                <textarea
-                    className="form-control"
-                    id="contactTextArea"
-                    placeholder="Write your message here"
-                    rows="10"
-                ></textarea>
-            </div>
+                <Form.Group className="mb-3">
+                    <Form.Label>Message</Form.Label>
+                    <Form.Control type="text" placeholder="Your message here" />
+                </Form.Group>
+                <Button variant="primary" type="submit">
+                    Submit
+                </Button>
+            </Form>
         </div>
     );
 }

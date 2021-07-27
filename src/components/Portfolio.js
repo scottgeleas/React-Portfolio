@@ -26,7 +26,7 @@ function Portfolio(props) {
     ];
 
     return (
-        <div className="portfolioHeader">
+        <div className="portfolio">
             <h2>Projects</h2>
         <div className="projectContainer">
             {Projects.map((projectData) => {
