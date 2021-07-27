@@ -1,30 +1,24 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(198, 240, 226);
-}
-
-.scott {
-    margin-left: 100px;
-    margin-top: 50px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    background-color: rgb(121, 255, 210);
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    background-color: rgb(250, 221, 184);
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    width: 100%;
+    /* background-color: rgb(250, 221, 184); */
 }
 
-.navbar li {
-    display: inline;
-    margin: 30px;
+.navLink {
+    /* margin-left: 1px; */
 }
 
 /* margin bottom -16???? why does this work lol*/
-.aboutContainer {
+ .aboutContainer {
     background-color:rgb(255, 217, 236) ;
-    margin-bottom: -16px;
+    /* margin-bottom: -16px; */
 }
 
 .aboutContainer img {
@@ -32,6 +26,26 @@
     background-color: rgb(88, 216, 255);
     border: 2px solid black;
     border-radius: 50%;
+}
+
+.projectContainer {
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+    background-color: rgb(156, 156, 156);
+}
+
+
+.project {
+    background-color: rgb(250, 205, 189);
+    margin: 20px 30px;
+    width: 30%;
+}
+
+.projectImage {
+    height: 150px;
+    width: 100%;
+    background-size: cover;
 }
 
 .footer {
@@ -42,4 +56,9 @@
 
 .footer a {
     margin: 20px 30px;
+}
+
+.footer a img {
+    height: 50px;
+    width: 50px;
 }

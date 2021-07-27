@@ -1,14 +1,10 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navigation from "./Navigation";
 
 function Header(props) {
     return (
-        <div class="header">
-            <div class="scott">
-                <h1>Scott Geleas</h1>
-            </div>
-
-            <Navbar setCurrentPage={props.setCurrentPage} />
+        <div className="header">
+            <Navigation setCurrentPage={props.setCurrentPage} />
         </div>
     );
 }

@@ -3,10 +3,10 @@ import avatar from '../icons/avatar.png';
 
 function About(props) {
     return (
-        <div class="aboutContainer">
+        <div className="aboutContainer">
             <h2>About</h2>
-            <img src={avatar} />
-            <p>This is the about me description thiungs text are apice deal</p>
+            <img src={avatar} alt="grey alien avatar"/>
+            <p>about me section text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p>
         </div>
     );
 }
