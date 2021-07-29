@@ -10,17 +10,18 @@
 }
 
 .name {
-    font-size: 72px;
+    font-size: 5rem;
     margin-left: 50px;
 }
 
 .links {
-    margin-right: 50px;
+    display: flex;
+    width: 100%;
 }
 
 .link {
-    margin: 0px 45px;
-    font-size: 25px;
+    font-size: 2rem;
+    text-align: center;
 }
 
 h2 {
@@ -56,12 +57,20 @@ h2 {
 }
 
 .project {
-    background-color: rgb(250, 205, 189);
     margin: 20px 30px;
     width: 40%;
     border: 2px solid black;
 }
 
+.card {
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .projectImage {
     height: 250px;
     width: 100%;
@@ -129,6 +138,8 @@ h2 {
 
 .lists ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .footer {
@@ -146,9 +157,15 @@ h2 {
     width: 75px;
 }
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 576px) {
     .projectContainer {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .name {
+        font-size: 1rem;
     }
 }

@@ -3,6 +3,12 @@ import Card from "react-bootstrap/Card";
 import githubIcon from "../icons/github.png";
 import deployIcon from "../icons/deploy.png";
 
+// const style = {
+//     "display": "flex",
+//     "flex-direction": "column",
+//     "justify-content": "space-between"
+// }
+
 function Project(props) {
     return (
         <div className="project">
