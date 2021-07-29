@@ -1,51 +1,81 @@
 .header {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    background-color: rgb(121, 255, 210);
+}
+
+.hero {
+    background-image: url("./images/hero.jpg");
+    background-size: cover;
+    height: 300px;
 }
 
 .navbar {
-    /* display: flex; */
-    /* justify-content: flex-start; */
     width: 100%;
-    /* background-color: rgb(250, 221, 184); */
 }
 
-.navLink {
-    /* margin-left: 1px; */
+.name {
+    font-size: 50px;
 }
 
-/* margin bottom -16???? why does this work lol*/
- .aboutContainer {
-    background-color:rgb(255, 217, 236) ;
-    /* margin-bottom: -16px; */
+h2 {
+    text-align: center;
 }
 
-.aboutContainer img {
+.about {
+}
+
+.bio {
+    background-color: rgb(255, 217, 236);
+    padding: 100px;
+}
+
+.about img {
     height: 150px;
     background-color: rgb(88, 216, 255);
     border: 2px solid black;
     border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 .projectContainer {
-     display: flex;
-     justify-content: space-evenly;
-     flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     background-color: rgb(156, 156, 156);
 }
-
 
 .project {
     background-color: rgb(250, 205, 189);
     margin: 20px 30px;
     width: 30%;
+    border: 2px solid black;
 }
 
 .projectImage {
-    height: 150px;
+    height: 250px;
     width: 100%;
     background-size: cover;
+    background-position: center;
+}
+
+.projectIcons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.githubIcon{
+    height: 50px;
+    width: 50px;
+}
+
+.deployIcon{}
+
+.form {
+    margin-left: 100px;
+    margin-bottom: 50px;
+    width: 250px;
+}
+
+.resume ul li {
+    list-style-type: none;
 }
 
 .footer {
@@ -61,4 +91,11 @@
 .footer a img {
     height: 50px;
     width: 50px;
+}
+
+@media screen and (max-device-width: 600px) {
+    .projectContainer {
+        flex-direction: column;
+        align-items: center;
+    }
 }

@@ -1,19 +1,27 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import githubIcon from '../icons/github.png';
 
 function Project(props) {
     return (
         <div className="project">
             <Card style={{ width: "100%" }}>
-                <Card.Img variant="top" src={props.image}/>
-                <Card.Body className="projectImage" style={{backgroundImage: `url(${props.image})`}}>
-                    
-                </Card.Body>
+                <Card.Img
+                    className="projectImage"
+                    style={{ backgroundImage: `url(${props.image})` }}
+                />
+
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Text>{props.description}</Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <div className="projectIcons">
+                    <Card.Text>
+                        <a href={props.github}><img src={githubIcon} className="githubIcon"/></a>
+                    </Card.Text>
+                    <Card.Text>
+                        <a href={props.deploy}><img src={githubIcon} className="githubIcon"/></a>
+                    </Card.Text>
+                    </div>
                 </Card.Body>
             </Card>
         </div>
@@ -21,4 +29,3 @@ function Project(props) {
 }
 
 export default Project;
-

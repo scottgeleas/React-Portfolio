@@ -1,22 +1,23 @@
 import React from "react";
-import resume from "../images/budgetTracker.png";
-import ListGroup  from "react-bootstrap/ListGroup";
+import resume from "../images/budget.png";
 
 function Resume(props) {
     return (
         <div className="resume">
-            <div className="download">
+            <h2>Resume</h2>
+            <div>
                 <a href={resume} download>
                     Download CV
                 </a>
+                <ul>
+                    <h3>Back End Skills</h3>
+                    <li></li>
+                </ul>
+                <ul>
+                    <h3>Front-End Skills</h3>
+                    <li></li>
+                </ul>
             </div>
-            <ListGroup>
-  <ListGroup.Item>Cras justo odio</ListGroup.Item>
-  <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-  <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-  <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-  <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-    </ListGroup>
         </div>
     );
 }
