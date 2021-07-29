@@ -23,13 +23,12 @@
 
 .link {
     margin: 0px 45px;
-
     font-size: 25px;
 }
 
 h2 {
     text-align: center;
-    /* margin: 20px 0px; */
+    margin: 20px 0px;
 }
 
 .bio {
@@ -48,7 +47,8 @@ h2 {
     background-color: rgb(88, 216, 255);
     border: 2px solid black;
     border-radius: 50%;
-    margin-bottom: 30px;
+    margin-bottom: -12px;
+    z-index: 2;
 }
 
 .projectContainer {
@@ -83,6 +83,7 @@ h2 {
     height: 50px;
     width: 50px;
     margin-top: 10px;
+    margin-bottom: -20px;
 }
 
 .contact {
@@ -117,18 +118,17 @@ h2 {
 
 .download {
     display: inline-block;
-    width: 160px;
-    padding: 20px 0px;
-    text-align: center;
+    width: min-content;
+    padding: 10px;
     border: 2px dashed black;
-    border-radius: 40%;
-    margin-top: 20px;
-    margin-bottom: 12px;
+    border-radius: 20%;
+    margin-bottom: 20px;
 }
 
 .download a {
-    font-size:18px;
+    font-size:16px;
     margin-top: 50px;
+    white-space: nowrap;
 }
 
 .lists {

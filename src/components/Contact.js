@@ -10,7 +10,7 @@ function Contact(props) {
                 <div className="formShort">
                 <Form.Group className="mb-3">
                     <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" placeholder="Your Name" required/>
+                    <Form.Control type="text" placeholder="Your name" required/>
                 </Form.Group>
                 <Form.Group className="mb-3">
                     <Form.Label>Email</Form.Label>
@@ -21,7 +21,7 @@ function Contact(props) {
                     className="mb-3"
                 >
                     <Form.Label>Message</Form.Label>
-                    <Form.Control as="textarea" rows={3} required/>
+                    <Form.Control as="textarea" rows={5} placeholder="Your message here"required/>
                 </Form.Group>
                 <Button variant="primary" type="submit">
                     Submit
