@@ -10,11 +10,11 @@ function Resume(props) {
                     Download CV
                 </a>
                 <ul>
-                    <h3>Back End Skills</h3>
+                    <h3>Front-End Skills</h3>
                     <li></li>
                 </ul>
                 <ul>
-                    <h3>Front-End Skills</h3>
+                    <h3>Back End Skills</h3>
                     <li></li>
                 </ul>
             </div>

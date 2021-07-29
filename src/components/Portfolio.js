@@ -7,7 +7,7 @@ function Portfolio(props) {
     const Projects = [
         {
             title: "Progressive Budget Tracker",
-            description: "A PWA that lets users track their budget",
+            description: "A PWA that lets users insert deposits and expenses while showing your your balance over time. ",
             image: budget,
             github: "https://github.com/scottgeleas/Progressive-Budget-Tracker",
             deploy: "https://progressive-budget-tracker-sjg.herokuapp.com/",

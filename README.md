@@ -36,6 +36,8 @@ Icons made by :
 
 [Pixel Perfect](https://www.flaticon.com/authors/pixel-perfect)
 
+[Vectors Market](https://www.flaticon.com/authors/vectors-market)
+
 from [Flaticon](https://www.flaticon.com/)
 
  ### License: 

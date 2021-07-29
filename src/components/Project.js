@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import githubIcon from '../icons/github.png';
+import deployIcon from '../icons/deploy.png';
 
 function Project(props) {
     return (
@@ -16,10 +17,10 @@ function Project(props) {
                     <Card.Text>{props.description}</Card.Text>
                     <div className="projectIcons">
                     <Card.Text>
-                        <a href={props.github}><img src={githubIcon} className="githubIcon"/></a>
+                        <a href={props.github}><img src={githubIcon} className="icon"/></a>
                     </Card.Text>
                     <Card.Text>
-                        <a href={props.deploy}><img src={githubIcon} className="githubIcon"/></a>
+                        <a href={props.deploy}><img src={deployIcon} className="icon"/></a>
                     </Card.Text>
                     </div>
                 </Card.Body>
