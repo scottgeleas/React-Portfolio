@@ -2,6 +2,8 @@
 
 ## Description
 
+Welcome! This is the repository for Scott's Geleas Portfolio. This portfolio was made with React.js! Utilizing Bootstrap to help with formatting various pages and projects. 
+
 ![]()
 
 ## Getting Started:
@@ -13,7 +15,7 @@ If you want to edit this app you must have a Github account, have downloaded Nod
 - Create a Github account here: [Github](https://github.com/)
 - Download Visual Studio here: [Visual Studio](https://code.visualstudio.com/download/)
 - Download Node: [Node.js](https://nodejs.org/en/)
-- Repository link: []()
+- [React Portfolio Repo](https://github.com/scottgeleas/React-Portfolio)
 
  ### Authors:
 
@@ -23,6 +25,7 @@ If you want to edit this app you must have a Github account, have downloaded Nod
 
 - Javascript
 - React.js
+- Bootstrap
 - Node.js
 - Visual Studio Code
 
