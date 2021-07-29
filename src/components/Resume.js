@@ -22,7 +22,7 @@ function Resume(props) {
                         <li>Bootstrap</li>
                         <li>Handlebars.js</li>
                         <li>Webpack</li>
-                        <li>Local and Session Storage</li>
+                        <li>Local &amp; Session Storage</li>
                         <li>IndexedDB</li>
                     </ul>
                     <ul>

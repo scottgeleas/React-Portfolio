@@ -62,8 +62,7 @@ h2 {
 .project {
     background-color: rgb(250, 205, 189);
     margin: 20px 30px;
-    width: 30%;
-    max-height: 500px;
+    width: 40%;
     border: 2px solid black;
 }
 
@@ -71,7 +70,7 @@ h2 {
     height: 250px;
     width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .projectIcons {
@@ -105,15 +104,12 @@ h2 {
 
 .resume {
     background-color: rgb(255, 255, 255);
-    
 }
 
 .skills {
     background-color: rgb(255, 245, 153);
     text-align: center;
     background-image: linear-gradient(white, #181d23);
-    
-
 }
 
 .download {
@@ -133,9 +129,12 @@ h2 {
 
 .lists {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-bottom: 100px;
-    
+}
+
+.lists ul {
+    list-style: none;
 }
 
 .footer {
