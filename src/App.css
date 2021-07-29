@@ -4,8 +4,8 @@
 .hero {
     background-image: url("./images/hero.jpg");
     background-size: cover;
-    background-position:top;
-    height: 300px;
+    background-position:bottom;
+    height: 245px;
 }
 
 .navbar {
@@ -29,12 +29,13 @@
 
 h2 {
     text-align: center;
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
 }
 
 .bio {
-    background-color: rgb(255, 217, 236);
+    background-color: rgb(127, 144, 192);
     padding: 30px;
+    background-image: linear-gradient(white, #181d23);
 }
 
 .avatar {
@@ -55,12 +56,14 @@ h2 {
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: rgb(156, 156, 156);
+    background-image: linear-gradient(white, #181d23);
 }
 
 .project {
     background-color: rgb(250, 205, 189);
     margin: 20px 30px;
     width: 30%;
+    max-height: 500px;
     border: 2px solid black;
 }
 
@@ -82,29 +85,72 @@ h2 {
     margin-top: 10px;
 }
 
+.contact {
+    background-color: rgb(255, 255, 255);
+}
 .form {
-    margin-left: 100px;
-    margin-bottom: 50px;
-    width: 250px;
+    background-color: brown;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 75px;
+    background-image: linear-gradient(white, #181d23);
+    
 }
 
-.resume ul li {
-    list-style-type: none;
+.formShort {
+    padding-right: 400px;
+}
+
+.resume {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.skills {
+    background-color: rgb(255, 245, 153);
+    text-align: center;
+    background-image: linear-gradient(white, #181d23);
+    
+
+}
+
+.download {
+    display: inline-block;
+    width: 160px;
+    padding: 20px 0px;
+    text-align: center;
+    border: 2px dashed black;
+    border-radius: 40%;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.download a {
+    font-size:18px;
+    margin-top: 50px;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    
 }
 
 .footer {
     display: flex;
     justify-content: center;
-    background-color: rgb(202, 225, 255);
+    background-color: #181d23;
 }
 
 .footer a {
-    margin: 20px 30px;
+    margin: 40px 40px;
 }
 
 .footer a img {
-    height: 50px;
-    width: 50px;
+    height: 75px;
+    width: 75px;
 }
 
 @media screen and (max-device-width: 600px) {
