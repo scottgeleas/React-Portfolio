@@ -1,10 +1,7 @@
-.header {
-}
-
 .hero {
     background-image: url("./images/hero.jpg");
     background-size: cover;
-    background-position:bottom;
+    background-position: bottom;
     height: 245px;
 }
 
@@ -44,7 +41,7 @@ h2 {
 
 .about img {
     height: 250px;
-    background-color: rgb(88, 216, 255);
+    background-color: #181d23;
     border: 2px solid black;
     border-radius: 50%;
     margin-bottom: -12px;
@@ -55,7 +52,6 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: rgb(156, 156, 156);
     background-image: linear-gradient(white, #181d23);
 }
 
@@ -86,7 +82,7 @@ h2 {
 }
 
 .contact {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
 .form {
     background-color: brown;
@@ -95,7 +91,6 @@ h2 {
     padding-right: 100px;
     padding-bottom: 75px;
     background-image: linear-gradient(white, #181d23);
-    
 }
 
 .formShort {
@@ -103,11 +98,10 @@ h2 {
 }
 
 .resume {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
 
 .skills {
-    background-color: rgb(255, 245, 153);
     text-align: center;
     background-image: linear-gradient(white, #181d23);
 }
@@ -122,7 +116,7 @@ h2 {
 }
 
 .download a {
-    font-size:16px;
+    font-size: 16px;
     margin-top: 50px;
     white-space: nowrap;
 }

@@ -7,13 +7,13 @@ function Footer() {
     return (
         <div className="footer">
             <a href="https://github.com/scottgeleas">
-                <img src={github} alt="scott on github"/>
+                <img src={github} alt="scott on github" />
             </a>
             <a href="https://www.linkedin.com/in/scottgeleas/">
-                <img src={linkedin} alt="scott on linkedin"/>
+                <img src={linkedin} alt="scott on linkedin" />
             </a>
             <a href="https://stackoverflow.com/users/14795964/scott-geleas">
-                <img src={stack} alt="scott on stack overflow"/>
+                <img src={stack} alt="scott on stack overflow" />
             </a>
         </div>
     );

@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import githubIcon from '../icons/github.png';
-import deployIcon from '../icons/deploy.png';
+import githubIcon from "../icons/github.png";
+import deployIcon from "../icons/deploy.png";
 
 function Project(props) {
     return (
@@ -9,19 +9,29 @@ function Project(props) {
             <Card style={{ width: "100%" }}>
                 <Card.Img
                     className="projectImage"
-                    style={{ backgroundImage: `url(${props.image})` }}
-                />
-
+                    style={{ backgroundImage: `url(${props.image})` }} />
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Text>{props.description}</Card.Text>
                     <div className="projectIcons">
-                    <Card.Text>
-                        <a href={props.github}><img src={githubIcon} className="icon"/></a>
-                    </Card.Text>
-                    <Card.Text>
-                        <a href={props.deploy}><img src={deployIcon} className="icon"/></a>
-                    </Card.Text>
+                        <Card.Text>
+                            <a href={props.github}>
+                                <img
+                                    src={githubIcon}
+                                    className="icon"
+                                    alt="github icon"
+                                />
+                            </a>
+                        </Card.Text>
+                        <Card.Text>
+                            <a href={props.deploy}>
+                                <img
+                                    src={deployIcon}
+                                    className="icon"
+                                    alt="world wide web globe icon"
+                                />
+                            </a>
+                        </Card.Text>
                     </div>
                 </Card.Body>
             </Card>

@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../images/budget.png";
+import resume from "../resume/Scott-Geleas-Resume.pdf";
 
 function Resume(props) {
     return (
@@ -10,8 +10,8 @@ function Resume(props) {
                     <a href={resume} download>
                         Download CV
                     </a>
-                    </div>
-                    <div className="lists">
+                </div>
+                <div className="lists">
                     <ul>
                         <h3>Front-End Skills</h3>
                         <li>HTML5</li>
@@ -47,7 +47,7 @@ function Resume(props) {
                         <li>GraphQL</li>
                         <li>Regex</li>
                     </ul>
-                    </div>
+                </div>
             </div>
         </div>
     );

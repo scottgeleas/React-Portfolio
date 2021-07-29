@@ -25,7 +25,7 @@ function Portfolio(props) {
             image: reciflixor,
             github: "https://github.com/UNH-Bootcamp-Projects/project-1-group-a",
             deploy: "https://unh-bootcamp-projects.github.io/project-1-group-a/",
-        }, 
+        },
         {
             title: "Healthy Mongoose",
             description:
@@ -52,7 +52,8 @@ function Portfolio(props) {
         },
         {
             title: "Progressive Budget Tracker",
-            description: "A PWA that lets users insert deposits and expenses even when offline. After each input the graph updates to show the users balance over time.",
+            description:
+                "A PWA that lets users insert deposits and expenses even when offline. After each input the graph updates to show the users balance over time.",
             image: budget,
             github: "https://github.com/scottgeleas/Progressive-Budget-Tracker",
             deploy: "https://progressive-budget-tracker-sjg.herokuapp.com/",
