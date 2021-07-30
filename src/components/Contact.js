@@ -7,24 +7,22 @@ function Contact(props) {
         <div className="contact">
             <h2>Contact Me</h2>
             <Form className="form">
-                <div className="formShort">
-                    <Form.Group className="mb-3">
-                        <Form.Label>Name</Form.Label>
-                        <Form.Control
-                            type="text"
-                            placeholder="Your name"
-                            required
-                        />
-                    </Form.Group>
-                    <Form.Group className="mb-3">
-                        <Form.Label>Email</Form.Label>
-                        <Form.Control
-                            type="email"
-                            placeholder="Your email"
-                            required
-                        />
-                    </Form.Group>
-                </div>
+                <Form.Group className="mb-3">
+                    <Form.Label>Name</Form.Label>
+                    <Form.Control
+                        type="text"
+                        placeholder="Your name"
+                        required
+                    />
+                </Form.Group>
+                <Form.Group className="mb-3">
+                    <Form.Label>Email</Form.Label>
+                    <Form.Control
+                        type="email"
+                        placeholder="Your email"
+                        required
+                    />
+                </Form.Group>
                 <Form.Group className="mb-3">
                     <Form.Label>Message</Form.Label>
                     <Form.Control

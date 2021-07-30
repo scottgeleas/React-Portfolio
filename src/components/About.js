@@ -10,7 +10,7 @@ function About(props) {
                 <div className="avatar">
                     <img src={avatar} alt="grey alien avatar" />
                 </div>
-                <Card>
+                <Card className="aboutBody">
                     <Card.Body>
                         Hello, and welcome! Myy name is Scott Geleas, and I'm a
                         Junior Web Developer raised in New Hampshire. I enjoy

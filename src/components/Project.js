@@ -3,20 +3,15 @@ import Card from "react-bootstrap/Card";
 import githubIcon from "../icons/github.png";
 import deployIcon from "../icons/deploy.png";
 
-// const style = {
-//     "display": "flex",
-//     "flex-direction": "column",
-//     "justify-content": "space-between"
-// }
-
 function Project(props) {
     return (
         <div className="project">
-            <Card style={{ width: "100%" }}>
+            <Card className="projectCard">
                 <Card.Img
                     className="projectImage"
-                    style={{ backgroundImage: `url(${props.image})` }} />
-                <Card.Body>
+                    style={{ backgroundImage: `url(${props.image})` }}
+                />
+                <Card.Body className="projectBody">
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Text>{props.description}</Card.Text>
                     <div className="projectIcons">
