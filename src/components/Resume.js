@@ -8,17 +8,6 @@ function Resume(props) {
             <div className='skills'>
                 <div className='lists'>
                     <ul>
-                        <h3>Technologies</h3>
-                        <li>Git</li>
-                        <li>Heroku</li>
-                        <li>Insomnia</li>
-                        <li>MySQL Workbench</li>
-                        <li>Robo 3T</li>
-                        <li>MongoDB Atlas</li>
-                        <li>Visual Studio Code</li>
-                        <li>Windows</li>
-                    </ul>
-                    <ul>
                         <h3>Front-End Skills</h3>
                         <li>HTML5</li>
                         <li>CSS3</li>
@@ -32,10 +21,21 @@ function Resume(props) {
                         <li>IndexedDB</li>
                     </ul>
                     <ul>
+                        <h3>Technologies</h3>
+                        <li>Git</li>
+                        <li>Heroku</li>
+                        <li>Insomnia</li>
+                        <li>MySQL Workbench</li>
+                        <li>Robo 3T</li>
+                        <li>MongoDB Atlas</li>
+                        <li>Visual Studio Code</li>
+                        <li>Windows</li>
+                    </ul>
+                    <ul>
                         <h3>Back-End Skills</h3>
                         <li>Node.js</li>
                         <li>Express.js</li>
-                        <li>SQL</li>
+                        <li>MySQL</li>
                         <li>Sequelize</li>
                         <li>MongoDB</li>
                         <li>Mongoose</li>

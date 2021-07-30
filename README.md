@@ -2,11 +2,11 @@
 
 ## Description
 
-Welcome! This is the repository for Scott's Geleas Portfolio. This portfolio was made with React.js! Utilizing Bootstrap to help with formatting various pages and projects. 
+Not much to say but a simple developers portfolio using React.js and Bootstrap components to create an informative and responsive web page. Please do yourself a favor and check it out!
 
 ![]()
 
-### [Portfolio]()
+## [Portfolio](https://scottgeleas.github.io/React-Portfolio/)
 
  ### Authors:
 
@@ -19,6 +19,7 @@ Welcome! This is the repository for Scott's Geleas Portfolio. This portfolio was
 - Bootstrap
 - Node.js
 - Visual Studio Code
+- Help from friends and colleagues
 
 ### Acknowledgements
 
@@ -26,12 +27,8 @@ Icons made by :
 
 [Freepik](https://www.freepik.com)
 
-[Smashicons](https://www.flaticon.com/authors/smashicons)
-
 [Pixel Perfect](https://www.flaticon.com/authors/pixel-perfect)
 
 [Vectors Market](https://www.flaticon.com/authors/vectors-market)
 
 from [Flaticon](https://www.flaticon.com/)
-
-

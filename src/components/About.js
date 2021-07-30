@@ -12,17 +12,19 @@ function About(props) {
                 </div>
                 <Card className='aboutBody'>
                     <Card.Body>
-                        Hello, and welcome! Myy name is Scott Geleas, and I'm a
+                        Hello, and welcome! My name is Scott Geleas, and I'm a
                         Junior Web Developer raised in New Hampshire. I enjoy
                         camping and the outdoors. During the summer I go on many
                         camping trips. I also love going to rock concerts with
                         my friends. I adore animals, and once had a turkey
                         friend that used to visit me every day. I've had all
                         kinds of pets, including birds, dogs, cats, fish,
-                        squirrels, guinea pigs, and hermit crabs. Currently
-                        looking to further my knowledge of Front-End
+                        squirrels, guinea pigs, and hermit crabs. Currently I'm
+                        looking to further my knowledge of Front-End Web
                         Development. I enjoy learning new things everyday, like
-                        figuring out how to get those planets to spin!
+                        figuring out how to get those planets to spin! Feel free
+                        to message me anytime with questions, or if you would
+                        like to collaborate on something.
                     </Card.Body>
                 </Card>
             </div>

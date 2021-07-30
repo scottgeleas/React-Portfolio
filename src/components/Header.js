@@ -8,9 +8,21 @@ function Header(props) {
     return (
         <div>
             <div className='hero'>
-                <img class='planet1' src={planet1} />
-                <img class='planet2' src={planet2} />
-                <img class='planet3' src={planet3} />
+                <img 
+                    class='planet1' 
+                    src={planet1} 
+                    alt='spinning green globe'
+                />
+                <img
+                    class='planet2'
+                    src={planet2}
+                    alt='blueish-violet planet'
+                />
+                <img
+                    class='planet3'
+                    src={planet3}
+                    alt='fiery world in the distance'
+                />
             </div>
             <Navigation setCurrentPage={props.setCurrentPage} />
         </div>

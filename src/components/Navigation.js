@@ -4,12 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Navigation(props) {
     return (
-        <Navbar
-            className='navbar'
-            className='navColor'
-            variant='dark'
-            expand='md'
-        >
+        <Navbar className='navbar' variant='dark' expand='md'>
             <Navbar.Brand className='name'>Scott Geleas</Navbar.Brand>
             <Navbar.Toggle
                 className='link'
@@ -21,28 +16,32 @@ function Navigation(props) {
                         className='page'
                         onClick={() => {
                             props.setCurrentPage('About');
-                        }}>
+                        }}
+                    >
                         About
                     </Nav.Link>
                     <Nav.Link
                         className='page'
                         onClick={() => {
                             props.setCurrentPage('Portfolio');
-                        }}>
+                        }}
+                    >
                         Portfolio
                     </Nav.Link>
                     <Nav.Link
                         className='page'
                         onClick={() => {
                             props.setCurrentPage('Contact');
-                        }}>
+                        }}
+                    >
                         Contact
                     </Nav.Link>
                     <Nav.Link
                         className='page'
                         onClick={() => {
                             props.setCurrentPage('Resume');
-                        }}>
+                        }}
+                    >
                         Resume
                     </Nav.Link>
                 </Nav>

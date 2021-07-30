@@ -1,3 +1,9 @@
+* {
+    font-family: 'Space Grotesk', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 :root {
     --primary: #000000;
 }
@@ -6,7 +12,7 @@
     background-image: url('./images/hero.jpg');
     background-size: cover;
     background-position: center;
-    height: 245px;
+    height: 250px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -34,14 +40,11 @@
 
 .navbar {
     width: 100%;
+    background: var(--primary);
 }
 
 .navbar-toggler {
     border: none;
-}
-
-.navColor {
-    background: var(--primary);
 }
 
 .name {
@@ -174,9 +177,19 @@ h3 {
 
 .lists ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
     flex: 1;
+    background-color: #151515;
+    border: 2px solid white;
+    border-radius: 30%;
+    color: white;
 }
 
 .download {
@@ -184,7 +197,7 @@ h3 {
     width: min-content;
     padding: 10px 30px;
     background-color: #151515;
-    border: 2px dashed black;
+    border: 2px solid white;
     border-radius: 30%;
     margin-top: 50px;
 }
@@ -279,5 +292,4 @@ h3 {
         font-size: 1rem;
         /* margin: 0px; */
     }
-    
 }
