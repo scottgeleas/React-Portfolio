@@ -2,7 +2,7 @@ import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-function Contact(props) {
+function Contact() {
     return (
         <div className='contact'>
             <h2>Email Me</h2>
@@ -23,15 +23,17 @@ function Contact(props) {
                         required
                     />
                 </Form.Group>
-                <Form.Group className='mb-3'>
-                    <Form.Label>Message</Form.Label>
-                    <Form.Control
-                        as='textarea'
-                        rows={5}
-                        placeholder='Your message here'
-                        required
-                    />
-                </Form.Group>
+                <div className='message'>
+                    <Form.Group className='mb-3'>
+                        <Form.Label>Message</Form.Label>
+                        <Form.Control
+                            as='textarea'
+                            rows={5}
+                            placeholder='Your message here'
+                            required
+                        />
+                    </Form.Group>
+                </div>
                 <Button variant='outline-light' type='submit'>
                     Submit
                 </Button>

@@ -8,18 +8,18 @@ function Header(props) {
     return (
         <div>
             <div className='hero'>
-                <img 
-                    class='planet1' 
-                    src={planet1} 
+                <img
+                    className='planet1'
+                    src={planet1}
                     alt='spinning green globe'
                 />
                 <img
-                    class='planet2'
+                    className='planet2'
                     src={planet2}
                     alt='blueish-violet planet'
                 />
                 <img
-                    class='planet3'
+                    className='planet3'
                     src={planet3}
                     alt='fiery world in the distance'
                 />

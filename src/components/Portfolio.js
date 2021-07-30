@@ -8,7 +8,7 @@ import firstPort from '../images/portfolio.png';
 import budget from '../images/budget.png';
 import comingSoon from '../images/coming-soon.jpg';
 
-function Portfolio(props) {
+function Portfolio() {
     const Projects = [
         {
             title: 'Restful Cabin Retreats',

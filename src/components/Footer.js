@@ -8,17 +8,20 @@ function Footer() {
         <div className='footer'>
             <a
                 className='footerIconGithub'
-                href='https://github.com/scottgeleas'>
+                href='https://github.com/scottgeleas'
+            >
                 <img src={github} alt='scott on github' />
             </a>
             <a
                 className='footerIcon'
-                href='https://www.linkedin.com/in/scottgeleas/'>
+                href='https://www.linkedin.com/in/scottgeleas/'
+            >
                 <img src={linkedin} alt='scott on linkedin' />
             </a>
             <a
                 className='footerIcon'
-                href='https://stackoverflow.com/users/14795964/scott-geleas'>
+                href='https://stackoverflow.com/users/14795964/scott-geleas'
+            >
                 <img src={stack} alt='scott on stack overflow' />
             </a>
         </div>

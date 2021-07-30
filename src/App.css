@@ -12,9 +12,10 @@
     background-image: url('./images/hero.jpg');
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 265px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .hero img {
@@ -22,20 +23,29 @@
 }
 
 .planet1 {
-    height: 6rem;
-    width: 6rem;
-    animation: spin-animation 11s infinite;
+    height: 7.25rem;
+    width: 7.25rem;
+    animation: spin-animation 27s infinite;
+    align-self: flex-start;
+    filter: brightness(80%);
+}
+
+.planet1 img {
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .planet2 {
-    height: 12rem;
-    width: 12rem;
+    height: 15rem;
+    width: 15rem;
+    align-self: flex-end;
 }
 
 .planet3 {
-    height: 3rem;
-    width: 3rem;
-    animation: spin-reverse 16s infinite;
+    height: 3.5rem;
+    width: 3.5rem;
+    animation: spin-reverse 24s infinite;
+    align-self: flex-start;
 }
 
 .navbar {
@@ -84,8 +94,7 @@ h3 {
 
 .avatar {
     display: flex;
-    /* justify-content: center; */
-    margin-left: 200px;
+    margin-left: 303px;
 }
 
 .about img {
@@ -101,7 +110,23 @@ h3 {
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
-    padding: 15px 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+.aboutBio {
+    margin-bottom: 20px;
+}
+
+.blockquote {
+    text-align: right;
+    margin: 0px;
+}
+
+.blockquote p {
+    text-align: center;
 }
 
 .projectContainer {
@@ -126,6 +151,7 @@ h3 {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .projectImage {
     height: 250px;
     width: 100%;
@@ -148,13 +174,19 @@ h3 {
 .contact {
     background-color: white;
 }
+
 .form {
     background-color: brown;
     padding-top: 30px;
-    padding-left: 140px;
     padding-right: 140px;
     padding-bottom: 75px;
+    padding-left: 140px;
     background: linear-gradient(white, var(--primary));
+    text-align: center;
+}
+
+.message {
+    margin-top: 30px;
 }
 
 .submit {
@@ -178,13 +210,13 @@ h3 {
 .lists ul {
     list-style: none;
     padding-top: 20px;
+    padding-right: 0px;
     padding-bottom: 10px;
     padding-left: 0px;
-    padding-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 95px;
+    margin-right: 95px;
     flex: 1;
     background-color: #151515;
     border: 2px solid white;
@@ -266,8 +298,9 @@ h3 {
 
 @media (max-width: 768px) {
     .name {
-        font-size: 2rem;
         margin-left: 25px;
+        font-size: 1.75rem !important;
+        /* For some reason changing the font-size doesn't work unless !important is there. */
     }
     .projectContainer {
         flex-direction: column;
@@ -283,13 +316,15 @@ h3 {
     }
 }
 
-@media (max-device-width: 1180px) {
+@media (max-device-width: 1265px) {
     .name {
-        font-size: 1.5rem;
+        font-size: 3rem;
         margin-left: 15px;
+    }
+    .page {
+        margin: 0px 15px;
     }
     .nav-link {
         font-size: 1rem;
-        /* margin: 0px; */
     }
 }

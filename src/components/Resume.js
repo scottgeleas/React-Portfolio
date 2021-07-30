@@ -1,7 +1,7 @@
 import React from 'react';
 import resume from '../resume/Scott-Geleas-Resume.pdf';
 
-function Resume(props) {
+function Resume() {
     return (
         <div className='resume'>
             <h2>Proficiencies</h2>
