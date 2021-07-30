@@ -81,7 +81,8 @@ h3 {
 
 .avatar {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    margin-left: 200px;
 }
 
 .about img {
@@ -167,15 +168,15 @@ h3 {
 }
 
 .lists {
-display: flex;
-    justify-content: space-around;
-    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .lists ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    flex: 1;
 }
 
 .download {
@@ -186,7 +187,6 @@ display: flex;
     border: 2px dashed black;
     border-radius: 30%;
     margin-top: 50px;
-    /* box-shadow: -2px 3px; */
 }
 
 .download a {
@@ -245,14 +245,9 @@ display: flex;
     }
 }
 
-@media screen and (max-device-width: 576px) {
-    .avatar {
-        display: flex;
-        justify-content: center;
-    }
-    .projectContainer {
-        flex-direction: column;
-        align-items: center;
+@media (max-device-width: 576px) {
+    .lists {
+        display: inline;
     }
 }
 
@@ -261,4 +256,28 @@ display: flex;
         font-size: 2rem;
         margin-left: 25px;
     }
+    .projectContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project {
+        width: 85%;
+    }
+    .avatar {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+}
+
+@media (max-device-width: 1180px) {
+    .name {
+        font-size: 1.5rem;
+        margin-left: 15px;
+    }
+    .nav-link {
+        font-size: 1rem;
+        /* margin: 0px; */
+    }
+    
 }
