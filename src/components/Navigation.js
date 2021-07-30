@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 function Navigation(props) {
     return (
-        <Navbar className="navbar" bg="dark" variant="dark" expand="md">
+        <Navbar className="navbar" className="navColor" variant="dark" expand="md">
             <Navbar.Brand className="name">Scott Geleas</Navbar.Brand>
             <Navbar.Toggle
                 className="link"

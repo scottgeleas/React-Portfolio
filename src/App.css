@@ -1,3 +1,7 @@
+:root {
+    --blue: #014ca1;
+}
+
 .hero {
     background-image: url("./images/hero.jpg");
     background-size: cover;
@@ -7,6 +11,10 @@
 
 .navbar {
     width: 100%;
+}
+
+.navColor {
+    background-color: var(--blue);
 }
 
 .name {
@@ -32,9 +40,8 @@ h2 {
 }
 
 .bio {
-    background-color: rgb(127, 144, 192);
     padding: 30px;
-    background-image: linear-gradient(white, #181d23);
+    background: linear-gradient(180deg,white, var(--blue));
 }
 
 .avatar {
@@ -59,7 +66,7 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-image: linear-gradient(white, #181d23);
+    background: linear-gradient(white, var(--blue));
 }
 
 .project {
@@ -105,7 +112,7 @@ h2 {
     padding-left: 140px;
     padding-right: 140px;
     padding-bottom: 75px;
-    background-image: linear-gradient(white, #181d23);
+    background: linear-gradient(white, var(--blue));
 }
 
 .resume {
@@ -114,7 +121,7 @@ h2 {
 
 .skills {
     text-align: center;
-    background-image: linear-gradient(white, #181d23);
+    background-image: linear-gradient(white, var(--blue));
 }
 
 .download {
@@ -130,6 +137,11 @@ h2 {
 .download a {
     font-size: 2.25rem;
     white-space: nowrap;
+    color: whitesmoke;
+}
+
+.download a:hover {
+    color: lightskyblue;
 }
 
 .lists {
@@ -146,7 +158,7 @@ h2 {
 .footer {
     display: flex;
     justify-content: center;
-    background-color: #181d23;
+    background-color: var(--blue);
 }
 
 .footer a {
@@ -156,6 +168,10 @@ h2 {
 .footer a img {
     height: 75px;
     width: 75px;
+}
+
+.footer a:hover {
+    filter: invert(15%)
 }
 
 @media screen and (max-device-width: 576px) {
