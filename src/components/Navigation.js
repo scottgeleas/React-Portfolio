@@ -11,30 +11,30 @@ function Navigation(props) {
                 aria-controls="responsive-navbar-nav"
             />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="links">
+                <Nav className="pages">
                     <Nav.Link
-                        className="link"
+                        className="page"
                         onClick={() => {
                             props.setCurrentPage("About");
                         }}>
                         About
                     </Nav.Link>
                     <Nav.Link
-                        className="link"
+                        className="page"
                         onClick={() => {
                             props.setCurrentPage("Portfolio");
                         }}>
                         Portfolio
                     </Nav.Link>
                     <Nav.Link
-                        className="link"
+                        className="page"
                         onClick={() => {
                             props.setCurrentPage("Contact");
                         }}>
                         Contact
                     </Nav.Link>
                     <Nav.Link
-                        className="link"
+                        className="page"
                         onClick={() => {
                             props.setCurrentPage("Resume");
                         }}>

@@ -1,34 +1,65 @@
 :root {
-    --blue: #014ca1;
+    --primary: #000000;
 }
 
 .hero {
     background-image: url("./images/hero.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     height: 245px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero img {
+    margin-top: 50px;
+}
+
+.planet1 {
+    height: 6rem;
+    width: 6rem;
+    animation: spin-animation 11s infinite;
+}
+
+.planet2 {
+    height: 12rem;
+    width: 12rem;
+}
+
+.planet3 {
+    height: 3rem;
+    width: 3rem;
+    animation: spin-reverse 16s infinite;
 }
 
 .navbar {
     width: 100%;
 }
 
+.navbar-toggler {
+    border: none;
+}
+
 .navColor {
-    background-color: var(--blue);
+    background: var(--primary);
 }
 
 .name {
     font-size: 5rem;
-    margin-left: 50px;
+    margin-left: 45px;
 }
 
-.links {
+.link {
+    margin-right: 15px;
+}
+
+.pages {
     display: flex;
     justify-content: flex-end;
     width: 100%;
 }
 
-.link {
+.page {
     font-size: 2rem;
     margin: 0px 25px;
     text-align: center;
@@ -41,7 +72,7 @@ h2 {
 
 .bio {
     padding: 30px;
-    background: linear-gradient(180deg,white, var(--blue));
+    background: linear-gradient(white, var(--primary));
 }
 
 .avatar {
@@ -51,22 +82,25 @@ h2 {
 
 .about img {
     height: 250px;
-    background-color: #181d23;
+    background-color: var(--primary);
     border: 2px solid black;
     border-radius: 50%;
-    margin-bottom: -12px;
+    margin-bottom: -25px;
     z-index: 2;
 }
 
 .aboutBody {
-    margin: 0px 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    padding: 15px 10px;
 }
 
 .projectContainer {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background: linear-gradient(white, var(--blue));
+    background: linear-gradient(white, var(--primary));
 }
 
 .project {
@@ -112,7 +146,11 @@ h2 {
     padding-left: 140px;
     padding-right: 140px;
     padding-bottom: 75px;
-    background: linear-gradient(white, var(--blue));
+    background: linear-gradient(white, var(--primary));
+}
+
+.submit {
+    color: var(--blue);
 }
 
 .resume {
@@ -121,27 +159,7 @@ h2 {
 
 .skills {
     text-align: center;
-    background-image: linear-gradient(white, var(--blue));
-}
-
-.download {
-    display: inline-block;
-    width: min-content;
-    padding: 10px 30px;
-    border: 2px outset black;
-    border-radius: 30%;
-    margin-top: 50px;
-    box-shadow: -3px 4px;
-}
-
-.download a {
-    font-size: 2.25rem;
-    white-space: nowrap;
-    color: whitesmoke;
-}
-
-.download a:hover {
-    color: lightskyblue;
+    background: linear-gradient(white, var(--primary));
 }
 
 .lists {
@@ -155,10 +173,32 @@ h2 {
     margin: 0;
 }
 
+.download {
+    display: inline-block;
+    width: min-content;
+    padding: 10px 30px;
+    background-color: #151515;
+    border: 2px dashed black;
+    border-radius: 30%;
+    margin-top: 50px;
+    /* box-shadow: -2px 3px; */
+}
+
+.download a {
+    font-size: 2.25rem;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #005eff;
+}
+
+.download a:hover {
+    color: #f2ff8c;
+}
+
 .footer {
     display: flex;
     justify-content: center;
-    background-color: var(--blue);
+    background-color: var(--primary);
 }
 
 .footer a {
@@ -170,11 +210,41 @@ h2 {
     width: 75px;
 }
 
-.footer a:hover {
-    filter: invert(15%)
+.footerIconGithub {
+    filter: invert(100%);
+}
+
+.footerIcon:hover {
+    filter: invert(20%);
+}
+
+.footerIconGithub:hover {
+    filter: invert(85%);
+}
+
+@keyframes spin-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes spin-reverse {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-359deg);
+    }
 }
 
 @media screen and (max-device-width: 576px) {
+    .avatar {
+        display: flex;
+        justify-content: center;
+    }
     .projectContainer {
         flex-direction: column;
         align-items: center;
@@ -183,6 +253,7 @@ h2 {
 
 @media (max-width: 768px) {
     .name {
-        font-size: 1rem;
+        font-size: 2rem;
+        margin-left: 25px;
     }
 }

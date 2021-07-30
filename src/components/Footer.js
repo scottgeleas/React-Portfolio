@@ -6,13 +6,19 @@ import stack from "../icons/stack.png";
 function Footer() {
     return (
         <div className="footer">
-            <a href="https://github.com/scottgeleas">
+            <a
+                className="footerIconGithub"
+                href="https://github.com/scottgeleas">
                 <img src={github} alt="scott on github" />
             </a>
-            <a href="https://www.linkedin.com/in/scottgeleas/">
+            <a
+                className="footerIcon"
+                href="https://www.linkedin.com/in/scottgeleas/">
                 <img src={linkedin} alt="scott on linkedin" />
             </a>
-            <a href="https://stackoverflow.com/users/14795964/scott-geleas">
+            <a
+                className="footerIcon"
+                href="https://stackoverflow.com/users/14795964/scott-geleas">
                 <img src={stack} alt="scott on stack overflow" />
             </a>
         </div>

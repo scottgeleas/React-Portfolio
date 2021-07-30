@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 function About(props) {
     return (
         <div className="about">
-            <h2>About</h2>
+            <h2>About Me</h2>
             <div className="bio">
                 <div className="avatar">
                     <img src={avatar} alt="grey alien avatar" />
@@ -20,8 +20,9 @@ function About(props) {
                         friend that used to visit me every day. I've had all
                         kinds of pets, including birds, dogs, cats, fish,
                         squirrels, guinea pigs, and hermit crabs. Currently
-                        looking to further my knowledge of Front-End Development
-                        while continuing to educate myself.
+                        looking to further my knowledge of Front-End
+                        Development. I enjoy learning new things everyday, like
+                        figuring out how to get those planets to spin!
                     </Card.Body>
                 </Card>
             </div>

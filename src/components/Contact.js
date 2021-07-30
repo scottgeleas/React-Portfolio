@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 function Contact(props) {
     return (
         <div className="contact">
-            <h2>Contact Me</h2>
+            <h2>Email Me</h2>
             <Form className="form">
                 <Form.Group className="mb-3">
                     <Form.Label>Name</Form.Label>
@@ -32,7 +32,7 @@ function Contact(props) {
                         required
                     />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button variant="outline-light" type="submit">
                     Submit
                 </Button>
             </Form>

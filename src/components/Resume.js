@@ -4,7 +4,7 @@ import resume from "../resume/Scott-Geleas-Resume.pdf";
 function Resume(props) {
     return (
         <div className="resume">
-            <h2>Resume</h2>
+            <h2>Proficiencies</h2>
             <div className="skills">
                 <div className="lists">
                     <ul>
@@ -44,7 +44,7 @@ function Resume(props) {
                     </ul>
                     <div className="download">
                         <a href={resume} download>
-                            Download CV
+                            Download CV ↯
                         </a>
                     </div>
                 </div>
