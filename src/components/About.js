@@ -1,16 +1,16 @@
-import React from "react";
-import avatar from "../icons/avatar.png";
-import Card from "react-bootstrap/Card";
+import React from 'react';
+import avatar from '../icons/avatar.png';
+import Card from 'react-bootstrap/Card';
 
 function About(props) {
     return (
-        <div className="about">
+        <div className='about'>
             <h2>About Me</h2>
-            <div className="bio">
-                <div className="avatar">
-                    <img src={avatar} alt="grey alien avatar" />
+            <div className='bio'>
+                <div className='avatar'>
+                    <img src={avatar} alt='grey alien avatar' />
                 </div>
-                <Card className="aboutBody">
+                <Card className='aboutBody'>
                     <Card.Body>
                         Hello, and welcome! Myy name is Scott Geleas, and I'm a
                         Junior Web Developer raised in New Hampshire. I enjoy

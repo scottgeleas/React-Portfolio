@@ -1,26 +1,26 @@
-import React from "react";
-import Card from "react-bootstrap/Card";
-import githubIcon from "../icons/github.png";
-import deployIcon from "../icons/deploy.png";
+import React from 'react';
+import Card from 'react-bootstrap/Card';
+import githubIcon from '../icons/github.png';
+import deployIcon from '../icons/deploy.png';
 
 function Project(props) {
     return (
-        <div className="project">
-            <Card className="projectCard">
+        <div className='project'>
+            <Card className='projectCard'>
                 <Card.Img
-                    className="projectImage"
+                    className='projectImage'
                     style={{ backgroundImage: `url(${props.image})` }}
                 />
-                <Card.Body className="projectBody">
+                <Card.Body className='projectBody'>
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Text>{props.description}</Card.Text>
-                    <div className="projectIcons">
+                    <div className='projectIcons'>
                         <Card.Text>
                             <a href={props.github}>
                                 <img
                                     src={githubIcon}
-                                    className="icon"
-                                    alt="github icon"
+                                    className='icon'
+                                    alt='github icon'
                                 />
                             </a>
                         </Card.Text>
@@ -28,8 +28,8 @@ function Project(props) {
                             <a href={props.deploy}>
                                 <img
                                     src={deployIcon}
-                                    className="icon"
-                                    alt="world wide web globe icon"
+                                    className='icon'
+                                    alt='world wide web globe icon'
                                 />
                             </a>
                         </Card.Text>

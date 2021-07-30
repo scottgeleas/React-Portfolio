@@ -1,12 +1,12 @@
-import React from "react";
-import resume from "../resume/Scott-Geleas-Resume.pdf";
+import React from 'react';
+import resume from '../resume/Scott-Geleas-Resume.pdf';
 
 function Resume(props) {
     return (
-        <div className="resume">
+        <div className='resume'>
             <h2>Proficiencies</h2>
-            <div className="skills">
-                <div className="lists">
+            <div className='skills'>
+                <div className='lists'>
                     <ul>
                         <h3>Technologies</h3>
                         <li>Git</li>
@@ -42,11 +42,11 @@ function Resume(props) {
                         <li>GraphQL</li>
                         <li>Regex</li>
                     </ul>
-                    <div className="download">
-                        <a href={resume} download>
-                            Download CV ↯
-                        </a>
-                    </div>
+                </div>
+                <div className='download'>
+                    <a href={resume} download>
+                        Download CV ↯
+                    </a>
                 </div>
             </div>
         </div>
