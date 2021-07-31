@@ -30,11 +30,10 @@ function About() {
                         </div>
                         <blockquote className='blockquote'>
                             <p>
-                                “Our virtues and our failings are inseparable,
-                                like force and matter. When they separate, man
-                                is no more”
+                                “The important thing is not to stop questioning.
+                                Curiosity has its own reason for existing.”
                             </p>
-                            ― Nikola Tesla
+                            ― Albert Einstein
                         </blockquote>
                     </Card.Body>
                 </Card>
