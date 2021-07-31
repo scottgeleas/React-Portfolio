@@ -75,7 +75,6 @@
 .page {
     font-size: 2rem;
     margin: 0px 25px;
-    text-align: center;
 }
 
 h2 {
@@ -102,19 +101,9 @@ h3 {
     background-color: var(--primary);
     border: 2px solid black;
     border-radius: 50%;
-    margin-bottom: -25px;
+    margin-bottom: -16px;
     z-index: 2;
     box-shadow: 2px 3px 5px black;
-}
-
-.aboutBody {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
-    padding-top: 15px;
-    padding-right: 10px;
-    padding-bottom: 0px;
-    padding-left: 10px;
 }
 
 .aboutBio {
@@ -216,8 +205,8 @@ h3 {
     padding-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 95px;
-    margin-right: 95px;
+    margin-left: 10px;
+    margin-right: 10px;
     flex: 1;
     background-color: #151515;
     border: 2px solid white;
@@ -303,6 +292,11 @@ h3 {
         font-size: 1.75rem !important;
         /* For some reason changing the font-size doesn't work unless !important is there. */
     }
+    .avatar {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
     .projectContainer {
         flex-direction: column;
         align-items: center;
@@ -310,10 +304,13 @@ h3 {
     .project {
         width: 85%;
     }
-    .avatar {
-        display: flex;
-        justify-content: center;
-        margin: 0px;
+
+    .lists ul h3 {
+        font-size: 1rem;
+    }
+
+    .lists ul li {
+        font-size: 1rem;
     }
 }
 
