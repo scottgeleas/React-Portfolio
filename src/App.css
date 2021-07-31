@@ -168,15 +168,20 @@ h3 {
 .form {
     background-color: brown;
     padding-top: 30px;
-    padding-right: 140px;
+    padding-right: 10px;
     padding-bottom: 75px;
-    padding-left: 140px;
+    padding-left: 10px;
     background: linear-gradient(white, var(--primary));
     text-align: center;
 }
 
+.email {
+    margin-top: 10px;
+}
+
 .message {
     margin-top: 30px;
+    margin-bottom: 25px;
 }
 
 .submit {
@@ -214,6 +219,10 @@ h3 {
     color: white;
 }
 
+.lists ul h3 {
+    text-decoration: underline;
+}
+
 .download {
     display: inline-block;
     width: min-content;
@@ -246,8 +255,8 @@ h3 {
 }
 
 .footer a img {
-    height: 75px;
-    width: 75px;
+    height: 5rem;
+    width: 5rem;
 }
 
 .footerIconGithub {
@@ -283,6 +292,10 @@ h3 {
 @media (max-device-width: 576px) {
     .lists {
         display: inline;
+    }
+    .footer a img {
+        height: 3rem;
+        width: 3rem;
     }
 }
 

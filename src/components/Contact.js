@@ -7,7 +7,7 @@ function Contact() {
         <div className='contact'>
             <h2>Email Me</h2>
             <Form className='form'>
-                <Form.Group className='mb-3'>
+                <Form.Group>
                     <Form.Label>Name</Form.Label>
                     <Form.Control
                         type='text'
@@ -15,16 +15,18 @@ function Contact() {
                         required
                     />
                 </Form.Group>
-                <Form.Group className='mb-3'>
-                    <Form.Label>Email</Form.Label>
-                    <Form.Control
-                        type='email'
-                        placeholder='Your email'
-                        required
-                    />
-                </Form.Group>
+                <div className='email'>
+                    <Form.Group>
+                        <Form.Label>Email</Form.Label>
+                        <Form.Control
+                            type='email'
+                            placeholder='Your email'
+                            required
+                        />
+                    </Form.Group>
+                </div>
                 <div className='message'>
-                    <Form.Group className='mb-3'>
+                    <Form.Group>
                         <Form.Label>Message</Form.Label>
                         <Form.Control
                             as='textarea'
