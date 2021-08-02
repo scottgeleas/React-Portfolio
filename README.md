@@ -8,7 +8,7 @@ Not much to say but a simple developers portfolio using React.js and Bootstrap c
 
 ## [Portfolio](https://scottgeleas.github.io/React-Portfolio/)
 
-### Authors:
+### Author:
 
 Scott Geleas
 
@@ -22,6 +22,8 @@ Scott Geleas
 -   Help from friends and colleagues
 
 ### Acknowledgements
+
+Big thanks to [@danmolloy](https://github.com/danmolloy) and [Oleksandr Kulyk](https://github.com/AlexKuWerz) for helping with the show more button on the portfolio page.
 
 Icons made by :
 

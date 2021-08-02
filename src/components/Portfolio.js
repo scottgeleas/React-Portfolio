@@ -9,9 +9,8 @@ import budget from '../images/budget.png';
 import comingSoon from '../images/coming-soon.jpg';
 import Button from 'react-bootstrap/Button';
 
-
 function Portfolio() {
-    const [projectsShown, setProjectsShown] = useState(4)
+    const [projectsShown, setProjectsShown] = useState(4);
 
     const Projects = [
         {
@@ -73,35 +72,37 @@ function Portfolio() {
     ];
 
     const mappedProjects = () => {
-             return Projects.slice(0, projectsShown).map((projectData) =>
-                <Project
-                    title={projectData.title}
-                    description={projectData.description}
-                    image={projectData.image}
-                    github={projectData.github}
-                    deploy={projectData.deploy}
-                />
-        )}
-    
+        return Projects.slice(0, projectsShown).map((projectData) => (
+            <Project
+                title={projectData.title}
+                description={projectData.description}
+                image={projectData.image}
+                github={projectData.github}
+                deploy={projectData.deploy}
+            />
+        ));
+    };
 
     const handleMore = () => {
         if (projectsShown > Projects.length) {
-            setProjectsShown(4)
+            setProjectsShown(4);
         } else {
-            setProjectsShown(projectsShown + 4)
+            setProjectsShown(projectsShown + 4);
         }
-    }
+    };
 
     return (
         <div className='portfolio'>
             <h2>Projects</h2>
-            <div className="projects-and-btn">
-            <div className='projectContainer'>
-                {mappedProjects(Projects)}
-            </div>
-            <Button variant='outline-light' onClick={handleMore}>
-                {projectsShown > Projects.length ? "Show Less" : "Show More"} 
-            </Button>
+            <div className='projects-and-btn'>
+                <div className='projectContainer'>
+                    {mappedProjects(Projects)}
+                </div>
+                <Button variant='outline-light' onClick={handleMore}>
+                    {projectsShown > Projects.length
+                        ? 'Show Less'
+                        : 'Show More'}
+                </Button>
             </div>
         </div>
     );
