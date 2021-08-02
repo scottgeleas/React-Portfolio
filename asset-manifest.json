@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.9d85f259.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.101b0959.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.101b0959.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.6c3c2331.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.9f3c5724.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.9f3c5724.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.60bc1379.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.60bc1379.js.map",
     "static/css/2.4be38407.chunk.css": "/React-Portfolio/static/css/2.4be38407.chunk.css",
-    "static/js/2.cb43b006.chunk.js": "/React-Portfolio/static/js/2.cb43b006.chunk.js",
-    "static/js/2.cb43b006.chunk.js.map": "/React-Portfolio/static/js/2.cb43b006.chunk.js.map",
+    "static/js/2.2c86acdb.chunk.js": "/React-Portfolio/static/js/2.2c86acdb.chunk.js",
+    "static/js/2.2c86acdb.chunk.js.map": "/React-Portfolio/static/js/2.2c86acdb.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.4be38407.chunk.css.map": "/React-Portfolio/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.9d85f259.chunk.css.map": "/React-Portfolio/static/css/main.9d85f259.chunk.css.map",
-    "static/js/2.cb43b006.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.cb43b006.chunk.js.LICENSE.txt",
+    "static/css/main.6c3c2331.chunk.css.map": "/React-Portfolio/static/css/main.6c3c2331.chunk.css.map",
+    "static/js/2.2c86acdb.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.2c86acdb.chunk.js.LICENSE.txt",
     "static/media/Scott-Geleas-Resume.0795ee35.pdf": "/React-Portfolio/static/media/Scott-Geleas-Resume.0795ee35.pdf",
     "static/media/avatar.e9dc0f02.png": "/React-Portfolio/static/media/avatar.e9dc0f02.png",
     "static/media/budget.d98c8ca1.png": "/React-Portfolio/static/media/budget.d98c8ca1.png",
@@ -33,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.60bc1379.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.cb43b006.chunk.js",
-    "static/css/main.9d85f259.chunk.css",
-    "static/js/main.101b0959.chunk.js"
+    "static/js/2.2c86acdb.chunk.js",
+    "static/css/main.6c3c2331.chunk.css",
+    "static/js/main.9f3c5724.chunk.js"
   ]
 }
