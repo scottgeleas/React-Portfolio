@@ -309,11 +309,14 @@ h3 {
     .project {
         width: 85%;
     }
-
+    .email img {
+        margin: 40px 0px;
+        width: 80%;
+        height: auto;
+    }
     .lists ul h3 {
         font-size: 1rem;
     }
-
     .lists ul li {
         font-size: 1rem;
     }
