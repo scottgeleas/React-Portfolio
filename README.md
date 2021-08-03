@@ -2,7 +2,7 @@
 
 ## Description
 
-Not much to say but a simple developers portfolio using React.js and Bootstrap components to create an informative and responsive web page. Please do yourself a favor and check it out!
+Not much to say but a simple developer's portfolio using React.js and Bootstrap components to create an informative and responsive web page. Please do yourself a favor and check it out!
 
 ![Scott Geleas' React Portfolio](./public/images/react-portfolio.png)
 
