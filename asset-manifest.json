@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.5ca6ebb2.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.e98eaf8a.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.e98eaf8a.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.b55fa288.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.b55fa288.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.60bc1379.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.60bc1379.js.map",
     "static/css/2.4be38407.chunk.css": "/React-Portfolio/static/css/2.4be38407.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/budget.d98c8ca1.png": "/React-Portfolio/static/media/budget.d98c8ca1.png",
     "static/media/coming-soon.a9fd0da3.jpg": "/React-Portfolio/static/media/coming-soon.a9fd0da3.jpg",
     "static/media/deploy.63109849.png": "/React-Portfolio/static/media/deploy.63109849.png",
-    "static/media/email.d711c1b3.png": "/React-Portfolio/static/media/email.d711c1b3.png",
+    "static/media/email.e366b49c.png": "/React-Portfolio/static/media/email.e366b49c.png",
     "static/media/github.44eee0c4.png": "/React-Portfolio/static/media/github.44eee0c4.png",
     "static/media/App.css": "/React-Portfolio/static/media/hero.dab8897b.jpg",
     "static/media/linkedin.e6d9ad33.png": "/React-Portfolio/static/media/linkedin.e6d9ad33.png",
@@ -36,6 +36,6 @@
     "static/css/2.4be38407.chunk.css",
     "static/js/2.c04d16ef.chunk.js",
     "static/css/main.5ca6ebb2.chunk.css",
-    "static/js/main.e98eaf8a.chunk.js"
+    "static/js/main.b55fa288.chunk.js"
   ]
 }
