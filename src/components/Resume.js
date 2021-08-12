@@ -9,13 +9,13 @@ function Resume() {
                 <div className='lists'>
                     <ul>
                         <h3>Front-End Skills</h3>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
                         <li>JavaScript</li>
                         <li>jQuery</li>
                         <li>React.js</li>
                         <li>Bootstrap</li>
                         <li>Handlebars.js</li>
+                        <li>CSS3</li>
+                        <li>HTML5</li>
                         <li>Webpack</li>
                         <li>Local &amp; Session Storage</li>
                         <li>IndexedDB</li>
@@ -35,11 +35,11 @@ function Resume() {
                         <h3>Back-End Skills</h3>
                         <li>Node.js</li>
                         <li>Express.js</li>
+                        <li>GraphQL</li>
                         <li>MySQL</li>
                         <li>Sequelize</li>
                         <li>MongoDB</li>
                         <li>Mongoose</li>
-                        <li>GraphQL</li>
                         <li>Regex</li>
                     </ul>
                 </div>
