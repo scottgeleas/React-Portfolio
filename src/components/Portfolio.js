@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Project from './Project';
 import restful from '../images/restful.png';
-import reciflixor from '../images/reciflixor.png';
+import book from '../images/book.png';
 import mongoose from '../images/mongoose.png';
+import reciflixor from '../images/reciflixor.png';
+import br from '../images/break.png';
 import note from '../images/note.png';
-import firstPort from '../images/portfolio.png';
 import budget from '../images/budget.png';
+import firstPort from '../images/portfolio.png';
 import comingSoon from '../images/coming-soon.jpg';
 
 function Portfolio() {
@@ -22,12 +24,12 @@ function Portfolio() {
             deploy: 'https://restful-cabin-retreats-sjg.herokuapp.com/',
         },
         {
-            title: 'Reciflixor',
+            title: 'Book Search',
             description:
-                'An application where movie lovers can select a movie and enjoy a recipe from that movie to experience the world the directors created.',
-            image: reciflixor,
-            github: 'https://github.com/scottgeleas/Reciflixor',
-            deploy: 'https://scottgeleas.github.io/Reciflixor/',
+                'An application that takes advantage of the Google Books API that allows users to search and save books to keep track of what they want to read.',
+            image: book,
+            github: 'https://github.com/scottgeleas/Book-Search',
+            deploy: 'https://book-search-sjg.herokuapp.com/',
         },
         {
             title: 'Healthy Mongoose',
@@ -36,6 +38,22 @@ function Portfolio() {
             image: mongoose,
             github: 'https://github.com/scottgeleas/Healthy-Mongoose',
             deploy: 'https://healthy-mongoose.herokuapp.com/',
+        },
+        {
+            title: 'Reciflixor',
+            description:
+                'An application where movie lovers can select a movie and enjoy a recipe from that movie to experience the world the directors created.',
+            image: reciflixor,
+            github: 'https://github.com/scottgeleas/Reciflixor',
+            deploy: 'https://scottgeleas.github.io/Reciflixor/',
+        },
+        {
+            title: 'Code Break',
+            description:
+                'A website that lets users save their favorite code snippets, and see snippets that other users have created.',
+            image: br,
+            github: 'https://github.com/scottgeleas/Code-Break',
+            deploy: 'https://code-br.herokuapp.com/',
         },
         {
             title: 'Note Taker',
@@ -48,7 +66,7 @@ function Portfolio() {
         {
             title: 'Progressive Budget Tracker',
             description:
-                'A PWA that lets users insert deposits and expenses even when offline. After each input the graph updates to show the users balance over time. After coming online, the data is then sent to the database',
+                'A PWA that lets users insert deposits and expenses even when offline. After each input the graph updates to show the users balance over time. After coming online, the data is then sent to the database.',
             image: budget,
             github: 'https://github.com/scottgeleas/Progressive-Budget-Tracker',
             deploy: 'https://progressive-budget-tracker-sjg.herokuapp.com/',
@@ -56,7 +74,7 @@ function Portfolio() {
         {
             title: 'My First Portfolio',
             description:
-                'This was the first portfolio I made back when I started learning web development. A lot of challenges were overcome with this project, and the knowledge I have acquired from creating this myself is priceless',
+                'This was the first portfolio I made back when I started learning web development. A lot of challenges were overcome with this project, and the knowledge I have acquired from creating this myself is priceless.',
             image: firstPort,
             github: 'https://github.com/scottgeleas/Portfolio',
             deploy: 'https://scottgeleas.github.io/Portfolio/',
