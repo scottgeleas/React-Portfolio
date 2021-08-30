@@ -23,6 +23,7 @@ function Resume() {
                     <ul>
                         <h3>Technologies</h3>
                         <li>Git</li>
+                        <li>Jest</li>
                         <li>Heroku</li>
                         <li>Insomnia</li>
                         <li>MySQL Workbench</li>
