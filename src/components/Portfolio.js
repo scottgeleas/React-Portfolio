@@ -26,7 +26,7 @@ function Portfolio() {
         {
             title: 'Book Search',
             description:
-                'An application that takes advantage of the Google Books API that allows users to search and save books to keep track of what they want to read.',
+                'An application that takes advantage of GraphQL and the Google Books API that allows users to search and save books to keep track of what they want to read.',
             image: book,
             github: 'https://github.com/scottgeleas/Book-Search',
             deploy: 'https://book-search-sjg.herokuapp.com/',
@@ -50,7 +50,7 @@ function Portfolio() {
         {
             title: 'Code Break',
             description:
-                'A website that lets users save their favorite code snippets, and see snippets that other users have created.',
+                'A website that lets users save their favorite code snippets, and see snippets that other users have created. Created with React and GraphQL.',
             image: br,
             github: 'https://github.com/scottgeleas/Code-Break',
             deploy: 'https://code-br.herokuapp.com/',
