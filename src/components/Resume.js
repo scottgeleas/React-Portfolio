@@ -30,6 +30,7 @@ function Resume() {
                         <li>Robo 3T</li>
                         <li>MongoDB Atlas</li>
                         <li>Visual Studio Code</li>
+                        <li>MacOS</li>
                         <li>Windows</li>
                     </ul>
                     <ul>

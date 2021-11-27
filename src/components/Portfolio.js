@@ -18,7 +18,7 @@ function Portfolio() {
         {
             title: 'Restful Cabin Retreats',
             description:
-                'A collaborative website using MongoDB and Mongoose to let users reserve a cabin from around the world.',
+                'A collaborative website using SQL and Sequelize to let users reserve a cabin from around the world.',
             image: restful,
             github: 'https://github.com/scottgeleas/Restful-Cabin-Retreats',
             deploy: 'https://restful-cabin-retreats-sjg.herokuapp.com/',
