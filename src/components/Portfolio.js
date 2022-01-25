@@ -13,12 +13,20 @@ import comingSoon from '../images/coming-soon.jpg';
 
 function Portfolio() {
     const [projectsShown, setProjectsShown] = useState(4);
-
+    
     const Projects = [
+        {
+            title: 'Code Break',
+            description:
+                'A web application that lets users save their favorite code snippets, and see snippets that other users have created. Created with React and GraphQL.',
+            image: br,
+            github: 'https://github.com/scottgeleas/Code-Break',
+            deploy: 'https://code-br.herokuapp.com/',
+        },
         {
             title: 'Restful Cabin Retreats',
             description:
-                'A collaborative website using SQL and Sequelize to let users reserve a cabin from around the world.',
+            'A collaborative website using SQL and Sequelize to let users reserve a cabin from around the world.',
             image: restful,
             github: 'https://github.com/scottgeleas/Restful-Cabin-Retreats',
             deploy: 'https://restful-cabin-retreats-sjg.herokuapp.com/',
@@ -26,10 +34,18 @@ function Portfolio() {
         {
             title: 'Book Search',
             description:
-                'An application that takes advantage of GraphQL and the Google Books API that allows users to search and save books to keep track of what they want to read.',
+            'An application that takes advantage of GraphQL and the Google Books API that allows users to search and save books to keep track of what they want to read.',
             image: book,
             github: 'https://github.com/scottgeleas/Book-Search',
             deploy: 'https://book-search-sjg.herokuapp.com/',
+        },
+        {
+            title: 'Progressive Budget Tracker',
+            description:
+                'A PWA that lets users insert deposits and expenses even when offline. After each input the graph updates to show the users balance over time. After coming online, the data is then sent to the database.',
+            image: budget,
+            github: 'https://github.com/scottgeleas/Progressive-Budget-Tracker',
+            deploy: 'https://progressive-budget-tracker-sjg.herokuapp.com/',
         },
         {
             title: 'Healthy Mongoose',
@@ -40,22 +56,6 @@ function Portfolio() {
             deploy: 'https://healthy-mongoose.herokuapp.com/',
         },
         {
-            title: 'Reciflixor',
-            description:
-                'An application where movie lovers can select a movie and enjoy a recipe from that movie to experience the world the directors created.',
-            image: reciflixor,
-            github: 'https://github.com/scottgeleas/Reciflixor',
-            deploy: 'https://scottgeleas.github.io/Reciflixor/',
-        },
-        {
-            title: 'Code Break',
-            description:
-                'A website that lets users save their favorite code snippets, and see snippets that other users have created. Created with React and GraphQL.',
-            image: br,
-            github: 'https://github.com/scottgeleas/Code-Break',
-            deploy: 'https://code-br.herokuapp.com/',
-        },
-        {
             title: 'Note Taker',
             description:
                 'A simple application allowing users to create notes. Simply type a note, give it a title, and add it with the + button.',
@@ -64,12 +64,12 @@ function Portfolio() {
             deploy: 'https://note-taker-sjg.herokuapp.com/',
         },
         {
-            title: 'Progressive Budget Tracker',
+            title: 'Reciflixor',
             description:
-                'A PWA that lets users insert deposits and expenses even when offline. After each input the graph updates to show the users balance over time. After coming online, the data is then sent to the database.',
-            image: budget,
-            github: 'https://github.com/scottgeleas/Progressive-Budget-Tracker',
-            deploy: 'https://progressive-budget-tracker-sjg.herokuapp.com/',
+                'An application where movie lovers can select a movie and enjoy a recipe from that movie to experience the world the directors created.',
+            image: reciflixor,
+            github: 'https://github.com/scottgeleas/Reciflixor',
+            deploy: 'https://scottgeleas.github.io/Reciflixor/',
         },
         {
             title: 'My First Portfolio',

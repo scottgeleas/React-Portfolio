@@ -38,6 +38,7 @@ function Resume() {
                         <li>Node.js</li>
                         <li>Express.js</li>
                         <li>GraphQL</li>
+                        <li>JSON Web Tokens</li>
                         <li>MySQL</li>
                         <li>Sequelize</li>
                         <li>MongoDB</li>

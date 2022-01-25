@@ -16,7 +16,7 @@ function Project(props) {
                     <Card.Text>{props.description}</Card.Text>
                     <div className='projectIcons'>
                         <Card.Text>
-                            <a href={props.github} target='_blank'>
+                            <a href={props.github} target='_blank' rel="noreferrer">
                                 <img
                                     src={githubIcon}
                                     className='icon'
@@ -25,7 +25,7 @@ function Project(props) {
                             </a>
                         </Card.Text>
                         <Card.Text>
-                            <a href={props.deploy} target='_blank'>
+                            <a href={props.deploy} target='_blank' rel="noreferrer">
                                 <img
                                     src={deployIcon}
                                     className='icon'

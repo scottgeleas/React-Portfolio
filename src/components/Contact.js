@@ -11,7 +11,7 @@ function Contact() {
                         scottgeleas97@gmail.com
                     </a>
                 </h3>
-                <img src={Email} />
+                <img src={Email} alt="envelope rocket icon"/>
             </div>
         </div>
     );
