@@ -10,12 +10,12 @@ function Resume() {
                     <ul>
                         <h3>Front-End Skills</h3>
                         <li>JavaScript</li>
-                        <li>jQuery</li>
                         <li>React.js</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>jQuery</li>
                         <li>Bootstrap</li>
                         <li>Handlebars.js</li>
-                        <li>CSS3</li>
-                        <li>HTML5</li>
                         <li>Webpack</li>
                         <li>Local &amp; Session Storage</li>
                         <li>IndexedDB</li>
@@ -23,11 +23,11 @@ function Resume() {
                     <ul>
                         <h3>Technologies</h3>
                         <li>Git</li>
-                        <li>Jest</li>
                         <li>Heroku</li>
+                        <li>Jest</li>
                         <li>Insomnia</li>
                         <li>MySQL Workbench</li>
-                        <li>Robo 3T</li>
+                        <li>MongoDB Compass</li>
                         <li>MongoDB Atlas</li>
                         <li>Visual Studio Code</li>
                         <li>MacOS</li>
