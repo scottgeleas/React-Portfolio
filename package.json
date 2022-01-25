@@ -1,7 +1,7 @@
 {
     "name": "portfolio",
     "version": "0.1.0",
-    "homepage": "https://scottgeleas.com",
+    "homepage": "https://scottgeleas.github.io/React-Portfolio",
     "private": true,
     "dependencies": {
         "bootstrap": "^5.0.2",
