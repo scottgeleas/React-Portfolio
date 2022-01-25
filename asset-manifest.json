@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.5ca6ebb2.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.35c67a6d.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.35c67a6d.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.0759c7e6.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.0759c7e6.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.60bc1379.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.60bc1379.js.map",
     "static/css/2.4be38407.chunk.css": "/React-Portfolio/static/css/2.4be38407.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.4be38407.chunk.css.map": "/React-Portfolio/static/css/2.4be38407.chunk.css.map",
     "static/css/main.5ca6ebb2.chunk.css.map": "/React-Portfolio/static/css/main.5ca6ebb2.chunk.css.map",
     "static/js/2.b162ae79.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.b162ae79.chunk.js.LICENSE.txt",
-    "static/media/Scott-Geleas-Resume.2c576484.pdf": "/React-Portfolio/static/media/Scott-Geleas-Resume.2c576484.pdf",
+    "static/media/Scott-Geleas-Resume.8c3cfb94.pdf": "/React-Portfolio/static/media/Scott-Geleas-Resume.8c3cfb94.pdf",
     "static/media/avatar.e9dc0f02.png": "/React-Portfolio/static/media/avatar.e9dc0f02.png",
     "static/media/book.b99fa8a3.png": "/React-Portfolio/static/media/book.b99fa8a3.png",
     "static/media/break.76e8ab8c.png": "/React-Portfolio/static/media/break.76e8ab8c.png",
@@ -30,14 +30,13 @@
     "static/media/planet3.5f41aef4.png": "/React-Portfolio/static/media/planet3.5f41aef4.png",
     "static/media/portfolio.12648888.png": "/React-Portfolio/static/media/portfolio.12648888.png",
     "static/media/reciflixor.2ce62efe.png": "/React-Portfolio/static/media/reciflixor.2ce62efe.png",
-    "static/media/restful.28d6c3af.png": "/React-Portfolio/static/media/restful.28d6c3af.png",
-    "static/media/stack.579cff43.png": "/React-Portfolio/static/media/stack.579cff43.png"
+    "static/media/restful.28d6c3af.png": "/React-Portfolio/static/media/restful.28d6c3af.png"
   },
   "entrypoints": [
     "static/js/runtime-main.60bc1379.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.b162ae79.chunk.js",
     "static/css/main.5ca6ebb2.chunk.css",
-    "static/js/main.35c67a6d.chunk.js"
+    "static/js/main.0759c7e6.chunk.js"
   ]
 }
